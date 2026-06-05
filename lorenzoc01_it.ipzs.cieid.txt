@@ -1,0 +1,13 @@
+[BEGIN]
+Remove root check
+Tested on CieID v1.7.25
+github.com/lorenzoc01
+
+[PACKAGE]
+[CLASSES]
+{"classes_name":"classes.dex"}
+{"group":"1"}
+{"original":"0A 01 12 12 38 01 ?? ?? 55 ?? ?? ?? 39 01 ?? ?? 60 01"}
+{"replaced":"0A 01 12 12 32 SQ ?? ?? 55 ?? ?? ?? 39 01 ?? ?? 60 01"}
+[END]
+Patch applied correctly!
